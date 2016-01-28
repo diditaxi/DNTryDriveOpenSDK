@@ -8,6 +8,7 @@
 
 #import "DNAppDelegate.h"
 #import "DNViewController.h"
+#import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
 
 @implementation DNAppDelegate
 
@@ -19,7 +20,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[DNViewController alloc] init];
+    
+    DNViewController *viewController = [[DNViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     
     return YES;

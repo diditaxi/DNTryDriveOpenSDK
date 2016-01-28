@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		9D27D519D3309060C7A8D94E /* Pods_DNTryDriveOpenSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC3096834BAD996F7230ED3 /* Pods_DNTryDriveOpenSDK_Example.framework */; };
+		BA69F4071C5A443B00136CBD /* DNContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69F4061C5A443B00136CBD /* DNContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		9339E69EF9D814A8300C7B15 /* Pods-DNTryDriveOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTryDriveOpenSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNTryDriveOpenSDK_Tests/Pods-DNTryDriveOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B31A1E8AADB352066EA31C86 /* Pods-DNTryDriveOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTryDriveOpenSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNTryDriveOpenSDK_Example/Pods-DNTryDriveOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7ABEF2B2B68FBEB5BC249F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA69F4051C5A443B00136CBD /* DNContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNContentViewController.h; sourceTree = "<group>"; };
+		BA69F4061C5A443B00136CBD /* DNContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				6003F5A6195388D20070C39A /* DNViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				BA69F4051C5A443B00136CBD /* DNContentViewController.h */,
+				BA69F4061C5A443B00136CBD /* DNContentViewController.m */,
 			);
 			name = "Example for DNTryDriveOpenSDK";
 			path = DNTryDriveOpenSDK;
@@ -386,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA69F4071C5A443B00136CBD /* DNContentViewController.m in Sources */,
 				6003F59E195388D20070C39A /* DNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

@@ -6,8 +6,8 @@
 //  Copyright (c) 2016 wangshaolin. All rights reserved.
 //
 
-#import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
+#import <UIKit/UIKit.h>
 
-@interface DNViewController : DNWebViewController
+@interface DNViewController : UIViewController
 
 @end
