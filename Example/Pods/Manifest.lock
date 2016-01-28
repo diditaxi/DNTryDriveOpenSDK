@@ -1,0 +1,17 @@
+PODS:
+  - DNTryDriveOpenSDK (0.1.0):
+    - WebViewJavascriptBridge (~> 4.1.5)
+  - WebViewJavascriptBridge (4.1.5)
+
+DEPENDENCIES:
+  - DNTryDriveOpenSDK (from `../`)
+
+EXTERNAL SOURCES:
+  DNTryDriveOpenSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DNTryDriveOpenSDK: def81e5b58633a774b1af506d19626897ff13038
+  WebViewJavascriptBridge: e7b6669bebfc4f151daa0fdec3c8c24c8dc3a24e
+
+COCOAPODS: 0.39.0

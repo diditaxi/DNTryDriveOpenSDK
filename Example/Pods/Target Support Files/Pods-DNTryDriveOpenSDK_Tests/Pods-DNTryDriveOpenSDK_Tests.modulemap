@@ -1,0 +1,6 @@
+framework module Pods_DNTryDriveOpenSDK_Tests {
+  umbrella header "Pods-DNTryDriveOpenSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

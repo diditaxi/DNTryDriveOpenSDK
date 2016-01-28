@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27B4D4047B445A7D63F0BAC66C05AB2B /* WebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940B57A8F57E6A54492B56B50D344486 /* WebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC25D0B3F2568ABD7CE4BAFDAE828E3 /* Pods-DNTryDriveOpenSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E83A942CF84EAF3438F4E7DC4A0D0E /* Pods-DNTryDriveOpenSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3228F8696BD1BC2F181D0B65BC36FC65 /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 66372CE54600D2763B47F27C31516F86 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36305D0C2331D28F9C02D42CB47D07F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		3E97683A071437BE857F5FF1D4FFCE58 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A079370E16A32768577FB42C4102760 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		461371A4A583DA04A14B62EA534DF402 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 064780CF1B508593DA75F259B750F6C0 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5AF037E533185C1C9B6452172427D70A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		693483EF61C895B0B5AE39345EA078A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		6E2C9FECB9FD763422BDE62CE2456748 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96D47D07B664CC04BBFE482B6628E /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		704C4C1FDC9FB6A9589AA83B3200D7FA /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252C2719CE00E893DB1ACC8E00E4AE9C /* WebViewJavascriptBridge-dummy.m */; };
+		AC0FF5D865621ECC1F442E033C31447D /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 56080932998B53CACF62361CE255137B /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF74EEB973ABFF70319637186DEB5D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		BDD156E5F855984C6105D1E8BD5AE1F2 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9457E13356A10C70913514B735515EBA /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C94FA33EEAC1950519FAD23544D3BD79 /* Pods-DNTryDriveOpenSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA5AEFCE89A9D0A5F39EC760884C66A /* Pods-DNTryDriveOpenSDK_Tests-dummy.m */; };
+		D225E21EAEC086D69E9F06E34CFE53DF /* Pods-DNTryDriveOpenSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A0ABD6ADD5068665C66E99DB738C7 /* Pods-DNTryDriveOpenSDK_Example-dummy.m */; };
+		DC552BBCED1683E0F7D515F68AF04192 /* Pods-DNTryDriveOpenSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7C7FE29CB8CD664827CB6FAB9CEFB5 /* Pods-DNTryDriveOpenSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98B369D5A7299293B1C66036E03EC6 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = AABA15754D14510028014258C1B950AF /* WebViewJavascriptBridge.js.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD310E3A80D1F002442F2D53324BB579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C93774C20B5BB29455C9948A8D86E97B;
+			remoteInfo = WebViewJavascriptBridge;
+		};
+		EF8004E735A3BB4AAF58169E48149D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C93774C20B5BB29455C9948A8D86E97B;
+			remoteInfo = WebViewJavascriptBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B96D47D07B664CC04BBFE482B6628E /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		064780CF1B508593DA75F259B750F6C0 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		0A1D668D7E299C523C648647D8159C35 /* DNWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNWebViewController.h; sourceTree = "<group>"; };
+		10B1FE7D30A65F4AA21ACBDE666D5E32 /* DNOpenSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNOpenSDKManager.h; sourceTree = "<group>"; };
+		151A0ABD6ADD5068665C66E99DB738C7 /* Pods-DNTryDriveOpenSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNTryDriveOpenSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		252C2719CE00E893DB1ACC8E00E4AE9C /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		2B5AFBF8545A0AD5AE3A375FA61A11FE /* Pods-DNTryDriveOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTryDriveOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		30893C485A4862FAB3299884F10CC6D8 /* WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
+		3DFA846E22B1E273B5BF98490DA6E7DD /* Pods-DNTryDriveOpenSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTryDriveOpenSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		42CCF7691062C6FC74EC100B8AD98161 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6FE132E1D5D6A9A1D69CC5D6093A71 /* Pods-DNTryDriveOpenSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNTryDriveOpenSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BD74450A342EE1CA64EB4C7E95104DF /* Pods-DNTryDriveOpenSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNTryDriveOpenSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53E83A942CF84EAF3438F4E7DC4A0D0E /* Pods-DNTryDriveOpenSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNTryDriveOpenSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		56080932998B53CACF62361CE255137B /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		576D32ED4626421ACCEA0541C4A4061D /* Pods-DNTryDriveOpenSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DNTryDriveOpenSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		66372CE54600D2763B47F27C31516F86 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		68A6D1A6ACC230650488BDE0D6E45C5D /* Pods_DNTryDriveOpenSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNTryDriveOpenSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		690E33EBC648F8E6978D96F59A5A8EDD /* Pods-DNTryDriveOpenSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNTryDriveOpenSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		693D6FE89A7EC42244FA0D62CDDDF2D8 /* UIWebView+DNOpenSDKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+DNOpenSDKWebViewJavascriptBridge.h"; sourceTree = "<group>"; };
+		6B1284695A5FA5ACC6B811CFBE5A4F5B /* WebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WebViewJavascriptBridge.modulemap; sourceTree = "<group>"; };
+		6E47E7898DE9B7B92E34D3CEA17857A0 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		704FDBB5E3FCB287F07B4972CA9865F1 /* Pods_DNTryDriveOpenSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNTryDriveOpenSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A079370E16A32768577FB42C4102760 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		7CF4225352CE2A352ED5010D782691BE /* Pods-DNTryDriveOpenSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DNTryDriveOpenSDK_Example.modulemap"; sourceTree = "<group>"; };
+		828A95848FBD0AD11BCD82931FA6419D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B97D251917B8CA2C3EB9FC61CCBD12 /* DNTryDriveOpenSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNTryDriveOpenSDK.h; sourceTree = "<group>"; };
+		8A40901A989887EADA9B26ED8D6F9625 /* Pods-DNTryDriveOpenSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTryDriveOpenSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7C7FE29CB8CD664827CB6FAB9CEFB5 /* Pods-DNTryDriveOpenSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNTryDriveOpenSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		940B57A8F57E6A54492B56B50D344486 /* WebViewJavascriptBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-umbrella.h"; sourceTree = "<group>"; };
+		9457E13356A10C70913514B735515EBA /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		9D77B156FB062EE066E2DAF6067DEC92 /* Pods-DNTryDriveOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTryDriveOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A8021A437BD89CAA23C7650D40D785FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABA15754D14510028014258C1B950AF /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebViewJavascriptBridge.js.txt; path = WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		B0CC7C572554581859A51F056A6DCA6B /* Pods-DNTryDriveOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNTryDriveOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B2DE1FC806EA72A8FA1D14695496860D /* Pods-DNTryDriveOpenSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTryDriveOpenSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C79F916B79C4ABD91645E996691B127F /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CF064710E5F1028A0C0621964B7F93 /* libtrydrive.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtrydrive.a; path = lib/libtrydrive.a; sourceTree = "<group>"; };
+		D7AB1B685F12D30319CE35022DCA7CAF /* Pods-DNTryDriveOpenSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTryDriveOpenSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E56634F7D91899CCE7CF539417FF9E11 /* Pods-DNTryDriveOpenSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNTryDriveOpenSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEA5AEFCE89A9D0A5F39EC760884C66A /* Pods-DNTryDriveOpenSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNTryDriveOpenSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB7E078BEF06C7D606C33386415EADAC /* Pods-DNTryDriveOpenSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNTryDriveOpenSDK_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308FEB661D1F0A078ECCD4884B18EA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF74EEB973ABFF70319637186DEB5D6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31D2ADA5C74D0920C90C8E611974336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36305D0C2331D28F9C02D42CB47D07F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BE709E95B5C6A04A40B537AECB06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693483EF61C895B0B5AE39345EA078A1 /* Foundation.framework in Frameworks */,
+				5AF037E533185C1C9B6452172427D70A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		18F75CD63D4546174AF33AC21FE0C824 /* Pods-DNTryDriveOpenSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				828A95848FBD0AD11BCD82931FA6419D /* Info.plist */,
+				576D32ED4626421ACCEA0541C4A4061D /* Pods-DNTryDriveOpenSDK_Tests.modulemap */,
+				E56634F7D91899CCE7CF539417FF9E11 /* Pods-DNTryDriveOpenSDK_Tests-acknowledgements.markdown */,
+				690E33EBC648F8E6978D96F59A5A8EDD /* Pods-DNTryDriveOpenSDK_Tests-acknowledgements.plist */,
+				EEA5AEFCE89A9D0A5F39EC760884C66A /* Pods-DNTryDriveOpenSDK_Tests-dummy.m */,
+				B2DE1FC806EA72A8FA1D14695496860D /* Pods-DNTryDriveOpenSDK_Tests-frameworks.sh */,
+				3DFA846E22B1E273B5BF98490DA6E7DD /* Pods-DNTryDriveOpenSDK_Tests-resources.sh */,
+				8C7C7FE29CB8CD664827CB6FAB9CEFB5 /* Pods-DNTryDriveOpenSDK_Tests-umbrella.h */,
+				8A40901A989887EADA9B26ED8D6F9625 /* Pods-DNTryDriveOpenSDK_Tests.debug.xcconfig */,
+				B0CC7C572554581859A51F056A6DCA6B /* Pods-DNTryDriveOpenSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-DNTryDriveOpenSDK_Tests";
+			path = "Target Support Files/Pods-DNTryDriveOpenSDK_Tests";
+			sourceTree = "<group>";
+		};
+		29D9B3A4531D80EA1B513014E5D0F09D /* DNTryDriveOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7430542E8326E5F388577A921D840FDA /* Frameworks */,
+				81FE087A6FDA5E55F8DA44FA5D587537 /* include */,
+			);
+			name = DNTryDriveOpenSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BBE45DC11F66C6109D2D8E18500D5B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29D9B3A4531D80EA1B513014E5D0F09D /* DNTryDriveOpenSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7430542E8326E5F388577A921D840FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6CF064710E5F1028A0C0621964B7F93 /* libtrydrive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76723EC2B5967F6137B2FF2254E3C5D7 /* Pods-DNTryDriveOpenSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				42CCF7691062C6FC74EC100B8AD98161 /* Info.plist */,
+				7CF4225352CE2A352ED5010D782691BE /* Pods-DNTryDriveOpenSDK_Example.modulemap */,
+				4B6FE132E1D5D6A9A1D69CC5D6093A71 /* Pods-DNTryDriveOpenSDK_Example-acknowledgements.markdown */,
+				4BD74450A342EE1CA64EB4C7E95104DF /* Pods-DNTryDriveOpenSDK_Example-acknowledgements.plist */,
+				151A0ABD6ADD5068665C66E99DB738C7 /* Pods-DNTryDriveOpenSDK_Example-dummy.m */,
+				D7AB1B685F12D30319CE35022DCA7CAF /* Pods-DNTryDriveOpenSDK_Example-frameworks.sh */,
+				FB7E078BEF06C7D606C33386415EADAC /* Pods-DNTryDriveOpenSDK_Example-resources.sh */,
+				53E83A942CF84EAF3438F4E7DC4A0D0E /* Pods-DNTryDriveOpenSDK_Example-umbrella.h */,
+				9D77B156FB062EE066E2DAF6067DEC92 /* Pods-DNTryDriveOpenSDK_Example.debug.xcconfig */,
+				2B5AFBF8545A0AD5AE3A375FA61A11FE /* Pods-DNTryDriveOpenSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-DNTryDriveOpenSDK_Example";
+			path = "Target Support Files/Pods-DNTryDriveOpenSDK_Example";
+			sourceTree = "<group>";
+		};
+		7B49C4D29DAE907A57EE65A56F426F29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76723EC2B5967F6137B2FF2254E3C5D7 /* Pods-DNTryDriveOpenSDK_Example */,
+				18F75CD63D4546174AF33AC21FE0C824 /* Pods-DNTryDriveOpenSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				5BBE45DC11F66C6109D2D8E18500D5B1 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E9879E798F9B0FFC7328481618D0A938 /* Pods */,
+				B89FB3926299EEC11B022DA675905636 /* Products */,
+				7B49C4D29DAE907A57EE65A56F426F29 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81FE087A6FDA5E55F8DA44FA5D587537 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BD7F521F172DFC71CBCB76FE98874123 /* header */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A8E4DB3AF12E37A6FBC7DD4486E58139 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABA15754D14510028014258C1B950AF /* WebViewJavascriptBridge.js.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B89FB3926299EEC11B022DA675905636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68A6D1A6ACC230650488BDE0D6E45C5D /* Pods_DNTryDriveOpenSDK_Example.framework */,
+				704FDBB5E3FCB287F07B4972CA9865F1 /* Pods_DNTryDriveOpenSDK_Tests.framework */,
+				C79F916B79C4ABD91645E996691B127F /* WebViewJavascriptBridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD7F521F172DFC71CBCB76FE98874123 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				10B1FE7D30A65F4AA21ACBDE666D5E32 /* DNOpenSDKManager.h */,
+				84B97D251917B8CA2C3EB9FC61CCBD12 /* DNTryDriveOpenSDK.h */,
+				0A1D668D7E299C523C648647D8159C35 /* DNWebViewController.h */,
+				693D6FE89A7EC42244FA0D62CDDDF2D8 /* UIWebView+DNOpenSDKWebViewJavascriptBridge.h */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		E29831708766BACFD3FA6D2142E1BF87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8021A437BD89CAA23C7650D40D785FD /* Info.plist */,
+				6B1284695A5FA5ACC6B811CFBE5A4F5B /* WebViewJavascriptBridge.modulemap */,
+				30893C485A4862FAB3299884F10CC6D8 /* WebViewJavascriptBridge.xcconfig */,
+				252C2719CE00E893DB1ACC8E00E4AE9C /* WebViewJavascriptBridge-dummy.m */,
+				6E47E7898DE9B7B92E34D3CEA17857A0 /* WebViewJavascriptBridge-prefix.pch */,
+				940B57A8F57E6A54492B56B50D344486 /* WebViewJavascriptBridge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		E9879E798F9B0FFC7328481618D0A938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F150B486DB786C7CB6192C12E6914023 /* WebViewJavascriptBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F150B486DB786C7CB6192C12E6914023 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				56080932998B53CACF62361CE255137B /* WebViewJavascriptBridge.h */,
+				064780CF1B508593DA75F259B750F6C0 /* WebViewJavascriptBridge.m */,
+				7A079370E16A32768577FB42C4102760 /* WebViewJavascriptBridgeBase.h */,
+				02B96D47D07B664CC04BBFE482B6628E /* WebViewJavascriptBridgeBase.m */,
+				66372CE54600D2763B47F27C31516F86 /* WKWebViewJavascriptBridge.h */,
+				9457E13356A10C70913514B735515EBA /* WKWebViewJavascriptBridge.m */,
+				A8E4DB3AF12E37A6FBC7DD4486E58139 /* Resources */,
+				E29831708766BACFD3FA6D2142E1BF87 /* Support Files */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		185AA1ED7E37F93221CF4B11425783F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B4D4047B445A7D63F0BAC66C05AB2B /* WebViewJavascriptBridge-umbrella.h in Headers */,
+				AC0FF5D865621ECC1F442E033C31447D /* WebViewJavascriptBridge.h in Headers */,
+				3E97683A071437BE857F5FF1D4FFCE58 /* WebViewJavascriptBridgeBase.h in Headers */,
+				3228F8696BD1BC2F181D0B65BC36FC65 /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE2941E602396EE224F3B7074A2F057 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC25D0B3F2568ABD7CE4BAFDAE828E3 /* Pods-DNTryDriveOpenSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB55DADDE23ECACC9A9B56C5E5D43D7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC552BBCED1683E0F7D515F68AF04192 /* Pods-DNTryDriveOpenSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A57806017EB108FDBB7656CF24972235 /* Pods-DNTryDriveOpenSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2068F71C4D49884407A9C0CD29478B9 /* Build configuration list for PBXNativeTarget "Pods-DNTryDriveOpenSDK_Tests" */;
+			buildPhases = (
+				78315EC2BDC69C15C97F68666CDC934C /* Sources */,
+				A31D2ADA5C74D0920C90C8E611974336 /* Frameworks */,
+				AB55DADDE23ECACC9A9B56C5E5D43D7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58226962FAED2C595037E8B1FDFA984E /* PBXTargetDependency */,
+			);
+			name = "Pods-DNTryDriveOpenSDK_Tests";
+			productName = "Pods-DNTryDriveOpenSDK_Tests";
+			productReference = 704FDBB5E3FCB287F07B4972CA9865F1 /* Pods_DNTryDriveOpenSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C93774C20B5BB29455C9948A8D86E97B /* WebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16926BAAF438E6188163AB63A5F69752 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
+			buildPhases = (
+				87D5BB2C7F189034F2BC47B14C42D2EA /* Sources */,
+				D38BE709E95B5C6A04A40B537AECB06E /* Frameworks */,
+				185AA1ED7E37F93221CF4B11425783F7 /* Headers */,
+				75E3D14DA1693E8A2DC60B679A3FD8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewJavascriptBridge;
+			productName = WebViewJavascriptBridge;
+			productReference = C79F916B79C4ABD91645E996691B127F /* WebViewJavascriptBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8D7B16F0103764D2FA240DEBB7C16D8 /* Pods-DNTryDriveOpenSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E006D9CC042FC6268DE4813C8F4D5B /* Build configuration list for PBXNativeTarget "Pods-DNTryDriveOpenSDK_Example" */;
+			buildPhases = (
+				575923C9D62C7483134F0C34B6520DAB /* Sources */,
+				308FEB661D1F0A078ECCD4884B18EA07 /* Frameworks */,
+				3AE2941E602396EE224F3B7074A2F057 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B865D3F8EA9BC73F6A6B91E124395BD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DNTryDriveOpenSDK_Example";
+			productName = "Pods-DNTryDriveOpenSDK_Example";
+			productReference = 68A6D1A6ACC230650488BDE0D6E45C5D /* Pods_DNTryDriveOpenSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B89FB3926299EEC11B022DA675905636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D7B16F0103764D2FA240DEBB7C16D8 /* Pods-DNTryDriveOpenSDK_Example */,
+				A57806017EB108FDBB7656CF24972235 /* Pods-DNTryDriveOpenSDK_Tests */,
+				C93774C20B5BB29455C9948A8D86E97B /* WebViewJavascriptBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E3D14DA1693E8A2DC60B679A3FD8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98B369D5A7299293B1C66036E03EC6 /* WebViewJavascriptBridge.js.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575923C9D62C7483134F0C34B6520DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D225E21EAEC086D69E9F06E34CFE53DF /* Pods-DNTryDriveOpenSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78315EC2BDC69C15C97F68666CDC934C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94FA33EEAC1950519FAD23544D3BD79 /* Pods-DNTryDriveOpenSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D5BB2C7F189034F2BC47B14C42D2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704C4C1FDC9FB6A9589AA83B3200D7FA /* WebViewJavascriptBridge-dummy.m in Sources */,
+				461371A4A583DA04A14B62EA534DF402 /* WebViewJavascriptBridge.m in Sources */,
+				6E2C9FECB9FD763422BDE62CE2456748 /* WebViewJavascriptBridgeBase.m in Sources */,
+				BDD156E5F855984C6105D1E8BD5AE1F2 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58226962FAED2C595037E8B1FDFA984E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = C93774C20B5BB29455C9948A8D86E97B /* WebViewJavascriptBridge */;
+			targetProxy = EF8004E735A3BB4AAF58169E48149D5C /* PBXContainerItemProxy */;
+		};
+		B865D3F8EA9BC73F6A6B91E124395BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = C93774C20B5BB29455C9948A8D86E97B /* WebViewJavascriptBridge */;
+			targetProxy = DD310E3A80D1F002442F2D53324BB579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B60CCC1D9E0AACF571D424229E53AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30893C485A4862FAB3299884F10CC6D8 /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5749990167E8B3CB4E22EF9684208E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30893C485A4862FAB3299884F10CC6D8 /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BDABF122F687D501AFB424F2324A88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5AFBF8545A0AD5AE3A375FA61A11FE /* Pods-DNTryDriveOpenSDK_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Example/Pods-DNTryDriveOpenSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DNTryDriveOpenSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C0186A1F0858300597A8B4284B92B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D77B156FB062EE066E2DAF6067DEC92 /* Pods-DNTryDriveOpenSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Example/Pods-DNTryDriveOpenSDK_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DNTryDriveOpenSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A05010FC0DC8D2B29836111D87E79D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A40901A989887EADA9B26ED8D6F9625 /* Pods-DNTryDriveOpenSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Tests/Pods-DNTryDriveOpenSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DNTryDriveOpenSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5C35430964E6735C62AD1BA9D59533A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CC7C572554581859A51F056A6DCA6B /* Pods-DNTryDriveOpenSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNTryDriveOpenSDK_Tests/Pods-DNTryDriveOpenSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DNTryDriveOpenSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16926BAAF438E6188163AB63A5F69752 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5749990167E8B3CB4E22EF9684208E87 /* Debug */,
+				4B60CCC1D9E0AACF571D424229E53AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E006D9CC042FC6268DE4813C8F4D5B /* Build configuration list for PBXNativeTarget "Pods-DNTryDriveOpenSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0186A1F0858300597A8B4284B92B4B /* Debug */,
+				6BDABF122F687D501AFB424F2324A88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2068F71C4D49884407A9C0CD29478B9 /* Build configuration list for PBXNativeTarget "Pods-DNTryDriveOpenSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05010FC0DC8D2B29836111D87E79D97 /* Debug */,
+				E5C35430964E6735C62AD1BA9D59533A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
