@@ -39,4 +39,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'WebViewJavascriptBridge', '~> 4.1.5'
+  s.dependency 'SSKeychain', '~> 1.3.1'
 end
