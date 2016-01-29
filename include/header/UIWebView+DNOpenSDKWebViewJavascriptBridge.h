@@ -17,12 +17,12 @@ typedef void(^DNOpenSDKBridgeHandler)(NSDictionary *dictionary, DNOpenSDKBridgeC
 @property (nonatomic, strong) WebViewJavascriptBridge *javascriptBridge;
 
 /*!
- *  @brief 装载默认的javascriptBridge组件，并注册默认handler（包括获取签名handler、获取sdk版本号handler）
+ *  @brief 装载默认的javascriptBridge组件，并注册默认handler（包括获取签名handler、获取sdk版本号handler、向native磁盘写数据、从native磁盘读数据）
  */
 - (void)loadDefaultJavascriptBridge;
 
 /*!
- *  @brief 设置自己的javascriptBridge，也会自动注册默认handler（包括获取签名handler、获取sdk版本号handler）
+ *  @brief 设置自己的javascriptBridge，也会自动注册默认handler（包括获取签名handler、获取sdk版本号handler，向native磁盘写数据、从native磁盘读数据）
  *
  *  @param javascriptBridge 自己的javascriptBridge
  */
@@ -62,9 +62,19 @@ UIKIT_EXTERN NSString * const DNOpenSDKJavascriptBridgeHandlerNameSDKVersion;
 /*!
  *  @brief 打开新的H5页面
  */
-UIKIT_EXTERN NSString * const DNOpenSDKJavascriptBridgeHandlerNameOpenWebPage;
+UIKIT_EXTERN NSString * const DNOpenSDKJavascriptBridgeHandlerNameOpenWebpage;
 
 /*!
  *  @brief 关闭H5页面
  */
-UIKIT_EXTERN NSString * const DNOpenSDKJavascriptBridgeHandlerNameCloseWebPage;
+UIKIT_EXTERN NSString * const DNOpenSDKJavascriptBridgeHandlerNameCloseWebpage;
+
+/*!
+ *  @brief H5写数据到本地磁盘
+ */
+UIKIT_EXTERN NSString * const DNOpenSDKJavascriptBridgeHandlerNameWriteDataToDisk;
+
+/*!
+ *  @brief H5读取本地磁盘数据
+ */
+UIKIT_EXTERN NSString * const DNOpenSDKJavascriptBridgeHandlerNameReadDataFromDisk;

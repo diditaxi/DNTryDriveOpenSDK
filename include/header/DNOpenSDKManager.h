@@ -11,10 +11,10 @@
 @interface DNOpenSDKManager : NSObject
 
 /*!
- *  @brief 设置appKey和签名私钥
- *  @param appKey    appKey
+ *  @brief 设置appId和签名私钥
+ *  @param appId    appId
  *  @param appSecret 签名私钥
  */
-+ (void)setAppKey:(NSString *)appKey withAppSecret:(NSString *)appSecret;
++ (void)setAppId:(NSString *)appId withAppSecret:(NSString *)appSecret;
 
 @end

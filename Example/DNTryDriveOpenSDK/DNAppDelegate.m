@@ -15,8 +15,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     // Override point for customization after application launch.
     
-    // 设置appKey和appSecret
-    [DNOpenSDKManager setAppKey:@"appKey" withAppSecret:@"appSecret"];
+    // 设置appId和appSecret
+    [DNOpenSDKManager setAppId:@"123qwe" withAppSecret:@"123qwe"];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
