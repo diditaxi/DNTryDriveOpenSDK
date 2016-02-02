@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DNTryDriveOpenSDK: 07a5549dc33cddd6f5d7a68415d5a68a71bd2771
+  DNTryDriveOpenSDK: 8edaeee6c59aec7d39c2c62a4e440fc5ff28eb58
   SSKeychain: 04c4ec40f4c3deda524e269bc76e5f30e638a174
   WebViewJavascriptBridge: e7b6669bebfc4f151daa0fdec3c8c24c8dc3a24e
 
