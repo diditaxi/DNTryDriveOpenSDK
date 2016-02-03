@@ -8,7 +8,7 @@
 ## SDK接入准备
 
 第三方APP在接入SDK时需要提前准备好appId和appSecret,其中appSecret用于签名;
-<a id="点击获得appId和appSecret"></a>点击获得appId和appSecret
+[点击获得appId和appSecret](#)
 
 ## 开发环境
 
