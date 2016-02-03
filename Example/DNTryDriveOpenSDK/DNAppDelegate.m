@@ -16,7 +16,7 @@
     // Override point for customization after application launch.
     
     // 设置appId和appSecret
-    [DNOpenSDKManager setAppId:@"123qwe" withAppSecret:@"123qwe"];
+    [DNOpenSDKManager setAppId:@"33837971c4294a939f4d14d61a282fe5" withAppSecret:@"OtxrzxIsfpFjA7SwPzILwy8Bw21TLhquhboDYROV"];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
