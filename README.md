@@ -25,8 +25,10 @@
 ## 代码接入
 * 在iOS9中支持http请求
  * 在XXXX-Info.plist中添加`NSAppTransportSecurity`类型为`Dictionary`，在`NSAppTransportSecurity`下添加`NSAllowsArbitraryLoads`类型为`Boolean`，值为`YES`。
+
 * 在iOS8以上的系统中支持定位
  * 在XXXX-Info.plist中添加`NSLocationWhenInUseUsageDescription`类型为`String`，值可为空。
+
 * 在AppDelegate中以以下方式引入头文件
 ```objc
 #import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
@@ -48,15 +50,31 @@
 @interface DNContentViewController : DNWebViewController
     
 @end
+
 ```
 * 使用自己的Controller和WebView
 ```objc
 #import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
     // 调用如下方法注册WebView与JS的交互handler，此方法会生成一个默认的jsBridge
-    // [_webView loadDefaultJavascriptBridge];
-    // 如果需要使用自己的jsBridge，那么需要在调用之前设置自己的jsBridge
-    // _webView.javascriptBridge = xxxx
+    // 给webView设置自己的jsBridge，并注册WebView与JS的交互handler，如果使用SDK默认的jsBridge，此行代码可以注释掉，改用[self.webView loadDefaultJavascriptBridge];
+    // self.webView.javascriptBridge = xxxx; // xxxx表示自己的jsBridge
+    
+    // 注册WebView与JS的交互handler，如果没有设置自己的jsBridge，此方法会创建一个默认的jsBridge，如果设置了自己的jsBridge，则调用此方法，什么事情都不会发生
+    [self.webView loadDefaultJavascriptBridge];
+    
+    ...
+
+}
+
 ```
+
+* SDK首页的URL地址
+ * url使用常量字符串`DNOpenSDKTryDriveWebViewHomePageURL`
+
 ## Author
 
 汪绍林, wangshaolin@didichuxing.com
