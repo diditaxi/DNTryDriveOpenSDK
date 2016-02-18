@@ -17,9 +17,16 @@
 @property (nonatomic, assign) NSURLRequestCachePolicy cachePolicy; // 缓存策略，默认NSURLRequestReloadIgnoringCacheData
 
 /*!
- *  @brief 加载url请求
+ *  @brief 加载默认的url请求
  */
 - (void)loadRequest;
+
+/*!
+ *  @brief 根据url加载请求
+ *
+ *  @param url
+ */
+- (void)loadRequestWithURL:(NSString *)url;
 
 /*!
  *  @brief H5调用native打开一个新的H5页面，子类实现

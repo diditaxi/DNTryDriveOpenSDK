@@ -12,7 +12,7 @@
 
 ## 开发环境
 
-* `iOS6+` `Xcode7+`
+* `iOS7+` `Xcode7+`
 
 ## 如何接入SDK
 * 已使用cocoapods管理工程的项目
@@ -23,8 +23,11 @@
  * 手动把静态库（.a）以及头文件拷贝到工程中，在项目中添加`SSKeychain`和`WebViewJavascriptBridge`第三方库依赖
 
 ## 代码接入
+* 在iOS9中支持http请求
+ * 在XXXX-Info.plist中添加`NSAppTransportSecurity`类型为`Dictionary`，在`NSAppTransportSecurity`下添加`NSAllowsArbitraryLoads`类型为`Boolean`，值为`YES`。
+* 在iOS8以上的系统中支持定位
+ * 在XXXX-Info.plist中添加`NSLocationWhenInUseUsageDescription`类型为`String`，值可为空。
 * 在AppDelegate中以以下方式引入头文件
-
 ```objc
 #import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
 
@@ -37,9 +40,26 @@
 }
 
 ```
+
+* 使用SDK提供的Controller和WebView
+```objc
+#import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
+// 继承自SDK提供的DNWebViewController即可，已注册WebView与JS的交互handler
+@interface DNContentViewController : DNWebViewController
+    
+@end
+```
+* 使用自己的Controller和WebView
+```objc
+#import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
+    // 调用如下方法注册WebView与JS的交互handler，此方法会生成一个默认的jsBridge
+    // [_webView loadDefaultJavascriptBridge];
+    // 如果需要使用自己的jsBridge，那么需要在调用之前设置自己的jsBridge
+    // _webView.javascriptBridge = xxxx
+```
 ## Author
 
-wangshaolin, wangshaolin@didichuxing.com
+汪绍林, wangshaolin@didichuxing.com
 
 ## License
 
