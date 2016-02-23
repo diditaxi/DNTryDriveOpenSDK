@@ -1,8 +1,8 @@
 //
 //  DNViewController.h
-//  DNTryDriveOpenSDK
+//  DNOpenSDK
 //
-//  Created by wangshaolin on 01/28/2016.
+//  Created by wangshaolin on 01/21/2016.
 //  Copyright (c) 2016 wangshaolin. All rights reserved.
 //
 

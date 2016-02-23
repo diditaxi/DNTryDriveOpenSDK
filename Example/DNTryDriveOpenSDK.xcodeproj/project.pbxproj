@@ -22,6 +22,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		900C9325DBD0B647C2C3E26A /* libPods-DNTryDriveOpenSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6506529A47E81435467ACB7D /* libPods-DNTryDriveOpenSDK_Example.a */; };
+		BA3ECAE41C7C6C54005EF685 /* page_back_button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECAE01C7C6C54005EF685 /* page_back_button_normal@2x.png */; };
+		BA3ECAE51C7C6C54005EF685 /* page_back_button_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECAE11C7C6C54005EF685 /* page_back_button_normal@3x.png */; };
+		BA3ECAE61C7C6C54005EF685 /* page_back_button_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECAE21C7C6C54005EF685 /* page_back_button_pressed@2x.png */; };
+		BA3ECAE71C7C6C54005EF685 /* page_back_button_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECAE31C7C6C54005EF685 /* page_back_button_pressed@3x.png */; };
 		BA69F4071C5A443B00136CBD /* DNContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69F4061C5A443B00136CBD /* DNContentViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,10 @@
 		9339E69EF9D814A8300C7B15 /* Pods-DNTryDriveOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTryDriveOpenSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNTryDriveOpenSDK_Tests/Pods-DNTryDriveOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B31A1E8AADB352066EA31C86 /* Pods-DNTryDriveOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTryDriveOpenSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNTryDriveOpenSDK_Example/Pods-DNTryDriveOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7ABEF2B2B68FBEB5BC249F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA3ECAE01C7C6C54005EF685 /* page_back_button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_back_button_normal@2x.png"; sourceTree = "<group>"; };
+		BA3ECAE11C7C6C54005EF685 /* page_back_button_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_back_button_normal@3x.png"; sourceTree = "<group>"; };
+		BA3ECAE21C7C6C54005EF685 /* page_back_button_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_back_button_pressed@2x.png"; sourceTree = "<group>"; };
+		BA3ECAE31C7C6C54005EF685 /* page_back_button_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_back_button_pressed@3x.png"; sourceTree = "<group>"; };
 		BA69F4051C5A443B00136CBD /* DNContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNContentViewController.h; sourceTree = "<group>"; };
 		BA69F4061C5A443B00136CBD /* DNContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNContentViewController.m; sourceTree = "<group>"; };
 		EC64A08D84353E8D1FA8F6D4 /* libPods-DNTryDriveOpenSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DNTryDriveOpenSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +155,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA3ECADF1C7C6C54005EF685 /* Images */,
 				6003F595195388D20070C39A /* DNTryDriveOpenSDK-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -193,6 +202,17 @@
 				9339E69EF9D814A8300C7B15 /* Pods-DNTryDriveOpenSDK_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA3ECADF1C7C6C54005EF685 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BA3ECAE01C7C6C54005EF685 /* page_back_button_normal@2x.png */,
+				BA3ECAE11C7C6C54005EF685 /* page_back_button_normal@3x.png */,
+				BA3ECAE21C7C6C54005EF685 /* page_back_button_pressed@2x.png */,
+				BA3ECAE31C7C6C54005EF685 /* page_back_button_pressed@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +298,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3ECAE61C7C6C54005EF685 /* page_back_button_pressed@2x.png in Resources */,
+				BA3ECAE51C7C6C54005EF685 /* page_back_button_normal@3x.png in Resources */,
+				BA3ECAE71C7C6C54005EF685 /* page_back_button_pressed@3x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				BA3ECAE41C7C6C54005EF685 /* page_back_button_normal@2x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

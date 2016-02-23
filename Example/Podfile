@@ -7,6 +7,4 @@ end
 
 target 'DNTryDriveOpenSDK_Tests', :exclusive => true do
   pod 'DNTryDriveOpenSDK', :path => '../'
-
-  
 end

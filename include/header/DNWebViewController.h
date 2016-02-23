@@ -22,13 +22,6 @@
 - (void)loadRequest;
 
 /*!
- *  @brief 根据url加载请求
- *
- *  @param url
- */
-- (void)loadRequestWithURL:(NSString *)url;
-
-/*!
  *  @brief H5调用native打开一个新的H5页面，子类实现
  *  @param param 页面需要的参数，例如url
  */
