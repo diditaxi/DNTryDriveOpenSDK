@@ -29,6 +29,10 @@
     UIBarButtonItem *nullBarButtonItem = [[UIBarButtonItem alloc] init];
     nullBarButtonItem.width = -15.0;
     self.navigationItem.leftBarButtonItems = @[nullBarButtonItem, backBarButtonItem];
+    
+    // 发请求，实际接入时需要使用真是的位置信息和真实的车型id
+    CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(40.042643, 116.290847);
+    [self loadRequestWithCarModelId:@"662" currentCoordinate:coordinate];
 }
 
 - (void)didClickBackButton:(UIButton *)backButton{

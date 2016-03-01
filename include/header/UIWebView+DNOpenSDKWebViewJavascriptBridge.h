@@ -29,14 +29,14 @@ typedef void(^DNOpenSDKBridgeHandler)(NSDictionary *dictionary, DNOpenSDKBridgeC
 - (void)setJavascriptBridge:(WebViewJavascriptBridge *)javascriptBridge;
 
 /*!
- *  @brief 注册JS监听
+ *  @brief 注册js监听
  *  @param handlerName 注册监听的名字
  *  @param handler     回调
  */
 - (void)registerBridgeHandler:(NSString *)handlerName bridgeHandler:(DNOpenSDKBridgeHandler)handler;
 
 /*!
- *  @brief 执行回调
+ *  @brief 执行js回调
  */
 - (void)callBridgeKHandler:(NSString *)handlerName;
 - (void)callBridgeKHandler:(NSString *)handlerName jsonData:(NSString *)jsonData;

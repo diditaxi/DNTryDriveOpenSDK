@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UIWebView+DNOpenSDKWebViewJavascriptBridge.h"
+#import <CoreLocation/CoreLocation.h>
 
 @interface DNWebViewController : UIViewController
 
@@ -17,9 +18,16 @@
 @property (nonatomic, assign) NSURLRequestCachePolicy cachePolicy; // 缓存策略，默认NSURLRequestReloadIgnoringCacheData
 
 /*!
- *  @brief 加载默认的url请求
+ *  @brief 加载默认的url请求，拼接之后的URL: http://10.10.34.215:8080/v1/page/bill?carModelId=662&lat=40.042642999999998&lng=116.290846999999999
+ *  @param carModelId 车型Id，此值必须传
+ *  @param coordinate 当前所在位置的经纬度信息，此值请尽量传且保证正确性，否则影响到发单以及体验效果
  */
-- (void)loadRequest;
+- (void)loadRequestWithCarModelId:(NSString *)carModelId currentCoordinate:(CLLocationCoordinate2D)coordinate;
+
+/*!
+ *  @brief 刷新当前的url请求
+ */
+- (void)reloadRequest;
 
 /*!
  *  @brief H5调用native打开一个新的H5页面，子类实现

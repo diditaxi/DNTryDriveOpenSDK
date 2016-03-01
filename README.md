@@ -23,6 +23,10 @@
  * 手动把静态库（.a）以及头文件拷贝到工程中，在项目中添加`SSKeychain`和`WebViewJavascriptBridge`第三方库依赖
 
 ## 代码接入
+
+* 添加需要的编译选项
+ * 在`TARGETS-Build Settings-Other Linker Flags`中添加如下内容：`-ObjC`
+
 * 在iOS9中支持http请求
  * 在XXXX-Info.plist中添加`NSAppTransportSecurity`类型为`Dictionary`，在`NSAppTransportSecurity`下添加`NSAllowsArbitraryLoads`类型为`Boolean`，值为`YES`。
 
@@ -51,6 +55,26 @@
     
 @end
 
+@implementation DNContentViewController
+
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    
+    ...
+
+    // 发请求，实际接入时需要使用真是的位置信息和真实的车型id
+    CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(40.042643, 116.290847);
+    [self loadRequestWithCarModelId:@"662" currentCoordinate:coordinate];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+    [super webViewDidFinishLoad:webView];
+    
+    self.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+}
+
+@end
+
 ```
 * 使用自己的Controller和WebView
 ```objc
@@ -66,18 +90,18 @@
     // 注册WebView与JS的交互handler，如果没有设置自己的jsBridge，此方法会创建一个默认的jsBridge，如果设置了自己的jsBridge，则调用此方法，什么事情都不会发生
     [self.webView loadDefaultJavascriptBridge];
     
+    // 加载请求的URL需要以下参数：
+    // carModelId: 车型id，必须，如：622
+    // lat: 纬度，尽量提供，如：40.042643
+    // lng: 经度，尽量提供，如：116.290847
+    // 最后拼接成的完成的URL如：http://10.10.34.215:8080/v1/page/bill?carModelId=662&lat=40.042642999999998&lng=116.290846999999999
     ...
-
 }
 
 ```
 
-* SDK首页的URL地址
+* SDK首页的URL地址，不含参数
  * url使用常量字符串`DNOpenSDKTryDriveWebViewHomePageURL`
-
-## Author
-
-汪绍林, wangshaolin@didichuxing.com
 
 ## License
 
