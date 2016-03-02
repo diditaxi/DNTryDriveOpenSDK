@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
+#import <CoreLocation/CoreLocation.h>
 
 typedef void(^DNOpenSDKBridgeCallback)(id data);
 typedef void(^DNOpenSDKBridgeHandler)(NSDictionary *dictionary, DNOpenSDKBridgeCallback callback);
@@ -45,9 +46,23 @@ typedef void(^DNOpenSDKBridgeHandler)(NSDictionary *dictionary, DNOpenSDKBridgeC
 @end
 
 /*!
- *  @brief 滴滴试驾开放服务H5首页URL地址
+ *  @brief 试驾预约发单页面的url
+ *
+ *  @param carModelId        车型id，非空
+ *  @param currentCoordinate 当前位置的经纬度信息，尽量传，且要保证值的正确性，否则影响体验效果（非法时[通过DNLocationCoordinate2DIsValid(...)校验]，H5页面会自己获取，但是对体验效果有所影响，因此建议还是native提供此经纬度信息）
+ *
+ *  @return 完整的url
  */
-UIKIT_EXTERN NSString * const DNOpenSDKTryDriveWebViewHomePageURL;
+UIKIT_EXTERN NSString *DNOpenSDKTryDriveWebViewMakeOrderURL(NSString *carModelId, CLLocationCoordinate2D currentCoordinate);
+
+/*!
+ *  @brief 校验经纬的合法性
+ *
+ *  @param coordinate 经纬度
+ *
+ *  @return 合法返回YES，否则返回NO
+ */
+UIKIT_EXTERN BOOL DNLocationCoordinate2DIsValid(CLLocationCoordinate2D coordinate);
 
 /*!
  *  @brief js获取native签名

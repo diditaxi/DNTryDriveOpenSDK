@@ -90,18 +90,21 @@
     // 注册WebView与JS的交互handler，如果没有设置自己的jsBridge，此方法会创建一个默认的jsBridge，如果设置了自己的jsBridge，则调用此方法，什么事情都不会发生
     [self.webView loadDefaultJavascriptBridge];
     
-    // 加载请求的URL需要以下参数：
-    // carModelId: 车型id，必须，如：622
-    // lat: 纬度，尽量提供，如：40.042643
-    // lng: 经度，尽量提供，如：116.290847
-    // 最后拼接成的完成的URL如：http://10.10.34.215:8080/v1/page/bill?carModelId=662&lat=40.042642999999998&lng=116.290846999999999
+    // 车型id
+    NSString *carModelId = @"622";
+    // 当前位置的经纬度信息
+    CLLocationCoordinate2D currentCoordinate = CLLocationCoordinate2DMake(40.042643, 116.290847);
+    // 得到预约发单页面的url
+    NSString *url = DNOpenSDKTryDriveWebViewMakeOrderURL(carModelId, currentCoordinate);
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10.0];
+    // 加载请求
+    [self.webView loadRequest:request];
+
     ...
+
 }
 
 ```
-
-* SDK首页的URL地址，不含参数
- * url使用常量字符串`DNOpenSDKTryDriveWebViewHomePageURL`
 
 ## License
 
