@@ -21,7 +21,7 @@
     
     CGFloat openWebViewPageButton_W = 100.0;
     CGFloat openWebViewPageButton_H = 30.0;
-    CGFloat openWebViewPageButton_Y = 100.0;
+    CGFloat openWebViewPageButton_Y = 40.0;
     CGFloat openWebViewPageButton_X = (self.view.bounds.size.width - openWebViewPageButton_W) * 0.5;
     UIButton *openWebViewPageButton = [UIButton buttonWithType:UIButtonTypeCustom];
     openWebViewPageButton.frame = CGRectMake(openWebViewPageButton_X, openWebViewPageButton_Y, openWebViewPageButton_W, openWebViewPageButton_H);

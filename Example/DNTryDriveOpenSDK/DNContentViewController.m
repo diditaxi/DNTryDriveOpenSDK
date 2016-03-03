@@ -30,6 +30,12 @@
     nullBarButtonItem.width = -15.0;
     self.navigationItem.leftBarButtonItems = @[nullBarButtonItem, backBarButtonItem];
     
+    CGFloat webView_X = 0;
+    CGFloat webView_W = self.view.bounds.size.width;
+    CGFloat webView_Y = 0;
+    CGFloat webView_H = self.view.bounds.size.height - 64.0;
+    self.webView.frame = CGRectMake(webView_X, webView_Y, webView_W, webView_H);
+    
     // 发请求，实际接入时需要使用真是的位置信息和真实的车型id
     CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(40.042643, 116.290847);
     [self loadRequestWithCarModelId:@"662" currentCoordinate:coordinate];

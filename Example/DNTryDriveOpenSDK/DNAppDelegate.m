@@ -23,6 +23,7 @@
     
     DNViewController *viewController = [[DNViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    navigationController.navigationBar.translucent = NO;
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     
