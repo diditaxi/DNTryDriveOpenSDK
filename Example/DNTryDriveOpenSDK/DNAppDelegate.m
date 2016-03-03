@@ -1,14 +1,14 @@
 //
 //  DNAppDelegate.m
-//  DNTryDriveOpenSDK
+//  DNOpenSDK
 //
-//  Created by wangshaolin on 01/28/2016.
+//  Created by wangshaolin on 01/21/2016.
 //  Copyright (c) 2016 wangshaolin. All rights reserved.
 //
 
 #import "DNAppDelegate.h"
 #import "DNViewController.h"
-#import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
+#import <DNOpenSDK/DNTryDriveOpenSDK.h>
 
 @implementation DNAppDelegate
 
@@ -23,7 +23,6 @@
     
     DNViewController *viewController = [[DNViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    navigationController.navigationBar.translucent = NO;
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     

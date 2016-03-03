@@ -19,6 +19,9 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
     _backButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [_backButton setImage:[UIImage imageNamed:@"page_back_button_normal"] forState:UIControlStateNormal];
     [_backButton setImage:[UIImage imageNamed:@"page_back_button_pressed"] forState:UIControlStateHighlighted];

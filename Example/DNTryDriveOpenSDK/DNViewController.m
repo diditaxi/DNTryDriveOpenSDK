@@ -19,6 +19,9 @@
     [super viewDidLoad];
     self.title = @"试驾SDK";
     
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
     CGFloat openWebViewPageButton_W = 100.0;
     CGFloat openWebViewPageButton_H = 30.0;
     CGFloat openWebViewPageButton_Y = 40.0;
