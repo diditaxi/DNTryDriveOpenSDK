@@ -2,27 +2,24 @@
 //  DNAppDelegate.m
 //  DNOpenSDK
 //
-//  Created by wangshaolin on 01/21/2016.
-//  Copyright (c) 2016 wangshaolin. All rights reserved.
+//  Created by lynn on 01/21/2016.
 //
 
 #import "DNAppDelegate.h"
 #import "DNViewController.h"
-#import <DNOpenSDK/DNTryDriveOpenSDK.h>
+#import <DNTryDriveOpenSDK/DNTryDriveOpenSDK.h>
 
 @implementation DNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    // Override point for customization after application launch.
-    
     // 设置appId和appSecret
     [DNOpenSDKManager setAppId:@"33837971c4294a939f4d14d61a282fe5" withAppSecret:@"OtxrzxIsfpFjA7SwPzILwy8Bw21TLhquhboDYROV"];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    DNViewController *viewController = [[DNViewController alloc] init];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[DNViewController alloc] init]];
+    
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     

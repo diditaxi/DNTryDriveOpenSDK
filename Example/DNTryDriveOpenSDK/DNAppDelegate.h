@@ -1,12 +1,11 @@
 //
 //  DNAppDelegate.h
-//  DNTryDriveOpenSDK
+//  DNOpenSDK
 //
-//  Created by wangshaolin on 01/28/2016.
-//  Copyright (c) 2016 wangshaolin. All rights reserved.
+//  Created by lynn on 01/21/2016.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface DNAppDelegate : UIResponder <UIApplicationDelegate>
 

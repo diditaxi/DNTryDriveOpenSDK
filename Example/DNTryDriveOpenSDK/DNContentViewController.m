@@ -3,18 +3,25 @@
 //  DNOpenSDK
 //
 //  Created by lynn on 16/1/28.
-//  Copyright © 2016年 wangshaolin. All rights reserved.
 //
 
 #import "DNContentViewController.h"
 
 @interface DNContentViewController(){
     UIButton *_backButton;
+    NSString *_carModelId;
 }
 
 @end
 
 @implementation DNContentViewController
+
+- (instancetype)initWithCarModelId:(NSString *)carModelId{
+    if(self = [super init]){
+        _carModelId = carModelId;
+    }
+    return self;
+}
 
 - (void)viewDidLoad{
     [super viewDidLoad];
@@ -33,15 +40,12 @@
     nullBarButtonItem.width = -15.0;
     self.navigationItem.leftBarButtonItems = @[nullBarButtonItem, backBarButtonItem];
     
-    CGFloat webView_X = 0;
-    CGFloat webView_W = self.view.bounds.size.width;
-    CGFloat webView_Y = 0;
-    CGFloat webView_H = self.view.bounds.size.height - 64.0;
-    self.webView.frame = CGRectMake(webView_X, webView_Y, webView_W, webView_H);
+    CGRect webViewFrame = self.view.bounds;
+    webViewFrame.size.height -= 64.0; // 减去导航栏的高度
+    self.webView.frame = webViewFrame;
     
     // 发请求，实际接入时需要使用真是的位置信息和真实的车型id
-    CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(40.042643, 116.290847);
-    [self loadRequestWithCarModelId:@"662" currentCoordinate:coordinate];
+    [self loadRequestWithCarModelId:_carModelId currentCoordinate:self.coordinate];
 }
 
 - (void)didClickBackButton:(UIButton *)backButton{

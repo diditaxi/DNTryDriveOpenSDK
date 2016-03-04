@@ -2,8 +2,7 @@
 //  DNViewController.m
 //  DNOpenSDK
 //
-//  Created by wangshaolin on 01/21/2016.
-//  Copyright (c) 2016 wangshaolin. All rights reserved.
+//  Created by lynn on 01/21/2016.
 //
 
 #import "DNViewController.h"
@@ -22,12 +21,12 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    CGFloat openWebViewPageButton_W = 100.0;
-    CGFloat openWebViewPageButton_H = 30.0;
-    CGFloat openWebViewPageButton_Y = 40.0;
-    CGFloat openWebViewPageButton_X = (self.view.bounds.size.width - openWebViewPageButton_W) * 0.5;
+    CGFloat openWebViewPageButtonWidth = 100.0;
+    CGFloat openWebViewPageButtonHeight = 30.0;
+    CGFloat openWebViewPageButtonY = 40.0;
+    CGFloat openWebViewPageButtonX = (self.view.bounds.size.width - openWebViewPageButtonWidth) * 0.5;
     UIButton *openWebViewPageButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    openWebViewPageButton.frame = CGRectMake(openWebViewPageButton_X, openWebViewPageButton_Y, openWebViewPageButton_W, openWebViewPageButton_H);
+    openWebViewPageButton.frame = CGRectMake(openWebViewPageButtonX, openWebViewPageButtonY, openWebViewPageButtonWidth, openWebViewPageButtonHeight);
     openWebViewPageButton.titleLabel.font = [UIFont systemFontOfSize:20.0];
     [openWebViewPageButton setTitle:@"滴滴试驾" forState:UIControlStateNormal];
     [openWebViewPageButton setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
@@ -40,7 +39,8 @@
 }
 
 - (void)didClickOpenWebViewPageButton:(UIButton *)openWebViewPageButton{
-    DNContentViewController *contentViewController = [[DNContentViewController alloc] init];
+    DNContentViewController *contentViewController = [[DNContentViewController alloc] initWithCarModelId:@"662"];
+    contentViewController.coordinate = CLLocationCoordinate2DMake(40.042643, 116.290847);
     [self.navigationController pushViewController:contentViewController animated:YES];
 }
 
