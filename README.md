@@ -67,12 +67,6 @@
     [self loadRequestWithCarModelId:@"662" currentCoordinate:coordinate];
 }
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView{
-    [super webViewDidFinishLoad:webView];
-    
-    self.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
-}
-
 @end
 
 ```
@@ -82,6 +76,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    self.title = @"滴滴试驾";
 
     // 调用如下方法注册WebView与JS的交互handler，此方法会生成一个默认的jsBridge
     // 给webView设置自己的jsBridge，并注册WebView与JS的交互handler，如果使用SDK默认的jsBridge，此行代码可以注释掉，改用[self.webView loadDefaultJavascriptBridge];

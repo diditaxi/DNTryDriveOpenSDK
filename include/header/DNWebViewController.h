@@ -31,16 +31,16 @@
 - (void)reloadRequest;
 
 /*!
- *  @brief H5调用native打开一个新的H5页面，子类实现
- *  @param param 页面需要的参数，例如url
+ *  @brief webView调用打开一个新的webView页面，子类实现
+ *
+ *  @param url webView需要的url
  */
-- (void)openWebViewControllerWithParam:(NSDictionary *)param;
+- (void)openWebViewControllerWithUrl:(NSURL *)url;
 
 /*!
- *  @brief H5调用native关闭当前页面，子类实现
- *  @param param 参数
+ *  @brief webView调用native关闭当前webView页面，子类实现
  */
-- (void)closeWebViewControllerWithParam:(NSDictionary *)param;
+- (void)closeCurrentWebViewController;
 
 /*!
  *  @brief 注册js监听

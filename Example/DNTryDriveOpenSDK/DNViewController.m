@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.title = @"试驾SDK";
+    self.title = @"试驾SDK_demo";
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.automaticallyAdjustsScrollViewInsets = NO;

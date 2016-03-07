@@ -56,10 +56,4 @@
     }
 }
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView{
-    [super webViewDidFinishLoad:webView];
-    
-    self.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
-}
-
 @end
