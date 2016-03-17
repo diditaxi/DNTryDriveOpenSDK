@@ -13,6 +13,8 @@
 
 - (instancetype)initWithCarModelId:(NSString *)carModelId; // 车型id
 
-- (void)didClickBackButton:(UIButton *)backButton;
+- (void)didClickBackButton:(UIButton *)backButton; // 点击返回按钮
+
+- (void)didClickCloseButton:(UIButton *)closeButton; // 点击关闭按钮
 
 @end

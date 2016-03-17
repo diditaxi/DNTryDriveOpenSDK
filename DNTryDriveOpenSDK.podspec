@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       滴滴试驾开放服务SDK，提供签名功能、native与webView的交互功能，依赖WebViewJavascriptBridge
+                       滴滴试驾开放服务SDK，提供签名功能、native与webView的交互功能，依赖WebViewJavascriptBridge、SSKeychain
                        DESC
 
   s.homepage         = "https://github.com/trydrive/DNTryDriveOpenSDK"
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/diditaxi/DNTryDriveOpenSDK.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '7.0'
 
   s.source_files        = 'include/header/**/*.h'
   s.public_header_files = 'include/header/**/*.h'
@@ -39,5 +39,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'WebViewJavascriptBridge', '~> 4.1.5'
-  s.dependency 'SSKeychain', '~> 1.3.1'
+  s.dependency 'SSKeychain', '~> 1.4.0'
+
 end
